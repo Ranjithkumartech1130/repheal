@@ -13,55 +13,55 @@
   --bg:#FAF6EE;
   --bg-alt:#F1E7D4;
   --paper:#FFFFFF;
-  --ink:#2E1E12;
-  --ink-soft:#6B4F3A;
-  --olive:#5C3A22;
-  --olive-deep:#2E1B0E;
-  --turmeric:#C89B3C;
-  --turmeric-bright:#E0AE49;
-  --chilli:#A3441E;
-  --brass:#AD8347;
-  --line:rgba(46,30,18,0.15);
-  --shadow:rgba(40,22,10,0.24);
+  --ink:#2A1214;
+  --ink-soft:#6E4A44;
+  --olive:#6E1524;
+  --olive-deep:#2C0A10;
+  --turmeric:#C6942E;
+  --turmeric-bright:#DFAE45;
+  --chilli:#96401B;
+  --brass:#A9803D;
+  --line:rgba(42,18,20,0.15);
+  --shadow:rgba(44,10,16,0.26);
   --bg-rgb:250,246,238;
-  --brand-deep:#4A2E17;
+  --brand-deep:#5C1220;
   --cream:#FBF7EC;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#1B140D;
-    --bg-alt:#221A11;
-    --paper:#271E14;
-    --ink:#F5EEE0;
-    --ink-soft:#CBB89C;
-    --olive:#C9A06B;
-    --olive-deep:#120D07;
-    --turmeric:#E0AE49;
-    --turmeric-bright:#EEC46E;
-    --chilli:#D5794A;
-    --brass:#C9A06B;
-    --line:rgba(245,238,224,0.15);
+    --bg:#180D0E;
+    --bg-alt:#211213;
+    --paper:#26161A;
+    --ink:#F3E7DC;
+    --ink-soft:#CDB6A8;
+    --olive:#E8BD70;
+    --olive-deep:#170609;
+    --turmeric:#DFAE45;
+    --turmeric-bright:#F0C665;
+    --chilli:#DD8B5A;
+    --brass:#CBA35F;
+    --line:rgba(243,231,220,0.15);
     --shadow:rgba(0,0,0,0.55);
-    --bg-rgb:27,20,13;
+    --bg-rgb:24,13,14;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#1B140D;
-  --bg-alt:#221A11;
-  --paper:#271E14;
-  --ink:#F5EEE0;
-  --ink-soft:#CBB89C;
-  --olive:#C9A06B;
-  --olive-deep:#120D07;
-  --turmeric:#E0AE49;
-  --turmeric-bright:#EEC46E;
-  --chilli:#D5794A;
-  --brass:#C9A06B;
-  --line:rgba(245,238,224,0.15);
+  --bg:#180D0E;
+  --bg-alt:#211213;
+  --paper:#26161A;
+  --ink:#F3E7DC;
+  --ink-soft:#CDB6A8;
+  --olive:#E8BD70;
+  --olive-deep:#170609;
+  --turmeric:#DFAE45;
+  --turmeric-bright:#F0C665;
+  --chilli:#DD8B5A;
+  --brass:#CBA35F;
+  --line:rgba(243,231,220,0.15);
   --shadow:rgba(0,0,0,0.55);
-  --bg-rgb:27,20,13;
+  --bg-rgb:24,13,14;
   color-scheme: dark;
 }
 
@@ -747,7 +747,7 @@ footer{background:var(--olive-deep);color:rgba(251,247,234,0.75);padding:70px 0 
   }
 
   /* enquiry form -> Google Sheet (via Apps Script Web App) */
-  var SHEET_ENDPOINT = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+  var SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycbxYvnCwBadrvP4qDw6gmn-kyYxiOe81aeoA3cuIr7ZHu4oJDwqHG97E6IPAtJoB8rRk4g/exec";
   var enquiryForm = document.getElementById('enquiryForm');
   if(enquiryForm){
     var statusEl = document.getElementById('ef-status');
